@@ -35,3 +35,4 @@ Thumbs.db
 # GraphRAG output
 data/graphrag/output/
 data/graphrag/cache/
+data/graphrag/logs/
