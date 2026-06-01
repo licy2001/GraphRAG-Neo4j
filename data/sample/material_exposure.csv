@@ -1,0 +1,4 @@
+product_id,product_name,material_id,material_name,cost_weight
+fan,风扇,copper,铜,0.18
+fan,风扇,plastic_abs,ABS塑料,0.22
+fan,风扇,steel,钢材,0.08

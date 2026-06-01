@@ -1,0 +1,44 @@
+[project]
+name = "fan-ms-graphrag-neo4j"
+version = "0.1.0"
+description = "Consumer fan industry knowledge graph built on Microsoft GraphRAG and Neo4j."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "graphrag>=3.1.0",
+  "neo4j>=5.26.0",
+  "pandas>=2.2.0",
+  "pyarrow>=15.0.0",
+  "python-dotenv>=1.0.1",
+  "pyyaml>=6.0.1",
+  "typer>=0.12.0",
+  "rich>=13.7.0",
+]
+
+[project.optional-dependencies]
+docs = [
+  "pypdf>=5.0.0",
+  "python-docx>=1.1.2",
+]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0",
+]
+
+[project.scripts]
+fan-kg = "fan_kg.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fan_kg"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

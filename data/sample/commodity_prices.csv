@@ -1,0 +1,7 @@
+material_id,material_name,date,price,change_pct,unit,source
+copper,铜,2025-06-01,78000,0.04,CNY/ton,commodity_internal
+plastic_abs,ABS塑料,2025-06-01,11800,-0.01,CNY/ton,commodity_internal
+steel,钢材,2025-06-01,3900,0.02,CNY/ton,commodity_internal
+copper,铜,2025-07-01,80500,0.032,CNY/ton,commodity_internal
+plastic_abs,ABS塑料,2025-07-01,12200,0.034,CNY/ton,commodity_internal
+steel,钢材,2025-07-01,3920,0.005,CNY/ton,commodity_internal

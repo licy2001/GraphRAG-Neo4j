@@ -1,0 +1,93 @@
+root_product:
+  id: fan
+  name: 风扇
+  normalized_name: fan
+  aliases:
+    - 风扇
+    - 电风扇
+    - 家用电风扇
+    - 空气循环扇
+    - electric fan
+    - fan
+
+product_hierarchy:
+  - id: pedestal_fan
+    name: 落地扇
+    parent_id: fan
+  - id: tower_fan
+    name: 塔扇
+    parent_id: fan
+  - id: air_circulator
+    name: 空气循环扇
+    parent_id: fan
+  - id: bladeless_fan
+    name: 无叶风扇
+    parent_id: fan
+  - id: handheld_fan
+    name: 手持风扇
+    parent_id: fan
+  - id: ceiling_fan
+    name: 吊扇
+    parent_id: fan
+  - id: industrial_fan
+    name: 工业风扇
+    parent_id: fan
+
+entity_types:
+  - ProductCategory
+  - Product
+  - Company
+  - Security
+  - SWIndustry
+  - Brand
+  - Component
+  - Material
+  - Channel
+  - Region
+  - FinancialMetric
+  - SalesMetric
+  - WeatherEvent
+  - CommodityPrice
+  - MarketFeature
+  - NewsEvent
+  - ResearchReport
+  - Announcement
+  - QuantSignal
+
+relations:
+  - BELONGS_TO_INDUSTRY
+  - HAS_SUB_PRODUCT
+  - PRODUCES
+  - OWNS_BRAND
+  - LISTED_AS
+  - SUPPLIES
+  - USES_MATERIAL
+  - SELLS_ON
+  - HAS_EXPOSURE_TO
+  - HAS_METRIC
+  - HAS_SALES_METRIC
+  - HAS_WEATHER
+  - HAS_PRICE
+  - HAS_MARKET_FEATURE
+  - AFFECTS
+  - DRIVES_DEMAND_OF
+  - COMPETES_WITH
+  - GENERATES_SIGNAL
+
+graphrag_entity_types:
+  - COMPANY
+  - BRAND
+  - PRODUCT
+  - PRODUCT_CATEGORY
+  - INDUSTRY
+  - MATERIAL
+  - COMPONENT
+  - CHANNEL
+  - REGION
+  - FINANCIAL_METRIC
+  - SALES_METRIC
+  - WEATHER_EVENT
+  - COMMODITY
+  - MARKET_EVENT
+  - POLICY
+  - NEWS_EVENT

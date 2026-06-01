@@ -1,0 +1,8 @@
+stock_code,company_id,date,return_5d,turnover_zscore,main_net_inflow,order_imbalance,source
+000333.SZ,000333.SZ,2025-06-01,0.018,0.7,180000000,0.12,ths_l2_aggregate
+000651.SZ,000651.SZ,2025-06-01,0.006,0.2,45000000,0.04,ths_l2_aggregate
+002959.SZ,002959.SZ,2025-06-01,0.031,1.1,62000000,0.18,ths_l2_aggregate
+01810.HK,01810.HK,2025-06-01,0.011,0.4,90000000,0.08,market_aggregate
+000333.SZ,000333.SZ,2025-07-01,0.026,1.0,260000000,0.2,ths_l2_aggregate
+000651.SZ,000651.SZ,2025-07-01,0.009,0.35,68000000,0.07,ths_l2_aggregate
+002959.SZ,002959.SZ,2025-07-01,0.044,1.45,82000000,0.26,ths_l2_aggregate

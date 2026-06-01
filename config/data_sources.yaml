@@ -1,0 +1,39 @@
+structured:
+  sw_industry: data/raw/structured/sw_industry.csv
+  company_product_channel: data/raw/structured/company_product_channel.csv
+  financial_metrics: data/raw/structured/financial_metrics.csv
+  sales_metrics: data/raw/structured/sales_metrics.csv
+  weather_metrics: data/raw/structured/weather_metrics.csv
+  commodity_prices: data/raw/structured/commodity_prices.csv
+  material_exposure: data/raw/structured/material_exposure.csv
+  market_features: data/raw/structured/market_features.csv
+
+documents:
+  raw_dir: data/raw/documents
+  graphrag_input_dir: data/graphrag/input
+  supported_extensions:
+    - .txt
+    - .md
+    - .jsonl
+    - .csv
+    - .pdf
+    - .docx
+
+time_series:
+  raw_dir: data/raw/market
+  recommended_storage:
+    - parquet
+    - clickhouse
+    - dolphindb
+
+graphrag:
+  root: data/graphrag
+  output_dir: data/graphrag/output
+  expected_tables:
+    - documents
+    - text_units
+    - entities
+    - relationships
+    - communities
+    - community_reports
+    - covariates

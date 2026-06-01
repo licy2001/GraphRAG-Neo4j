@@ -1,0 +1,4 @@
+product_id,product_name,sw_code,sw_name,sw_level,source,confidence
+fan,风扇,801110.SI,家用电器,L1,申万,0.95
+fan,风扇,801113.SI,小家电,L2,申万,0.85
+fan,风扇,851113.SI,其他小家电,L3,申万,0.8

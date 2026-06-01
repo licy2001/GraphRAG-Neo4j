@@ -1,0 +1,8 @@
+company_id,stock_code,company_name,period,metric_name,value,unit,source
+000333.SZ,000333.SZ,美的集团,2025Q1,revenue,128400000000,CNY,internal_financial
+000333.SZ,000333.SZ,美的集团,2025Q1,gross_margin,0.274,ratio,internal_financial
+000333.SZ,000333.SZ,美的集团,2025Q1,inventory_turnover,1.84,times,internal_financial
+000651.SZ,000651.SZ,格力电器,2025Q1,revenue,45600000000,CNY,internal_financial
+000651.SZ,000651.SZ,格力电器,2025Q1,gross_margin,0.302,ratio,internal_financial
+002959.SZ,002959.SZ,小熊电器,2025Q1,revenue,1120000000,CNY,internal_financial
+002959.SZ,002959.SZ,小熊电器,2025Q1,gross_margin,0.368,ratio,internal_financial

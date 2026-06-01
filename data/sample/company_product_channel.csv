@@ -1,0 +1,5 @@
+company_id,stock_code,company_name,brand_name,product_id,product_name,exposure_type,exposure_weight,channel,source,evidence,confidence
+000333.SZ,000333.SZ,美的集团,美的,fan,风扇,estimated_product_revenue,0.08,京东,annual_report,"小家电及环境电器产品矩阵覆盖风扇、空气循环扇等品类",0.9
+000651.SZ,000651.SZ,格力电器,格力,fan,风扇,estimated_product_revenue,0.03,天猫,annual_report,"生活电器品类包含电风扇、空气净化等产品",0.75
+002959.SZ,002959.SZ,小熊电器,小熊,fan,风扇,estimated_product_revenue,0.04,抖音电商,industry_report,"小家电品牌线上销售覆盖夏季清凉电器",0.7
+01810.HK,01810.HK,小米集团,米家,fan,风扇,estimated_ecosystem_exposure,0.02,小米有品,ecosystem_data,"米家智能风扇为空气与环境电器生态链产品",0.7
